@@ -32,7 +32,6 @@ Documentation is available at:
 
 
 ## Screenshots
-
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+<img width="1440" alt="Screenshot 2022-07-14 at 6 56 34 PM" src="https://user-images.githubusercontent.com/108729483/179001386-d67700c8-9542-4639-a760-e2272abb22cc.png">
 
 
