@@ -64,6 +64,9 @@ function clearformerros() {
       geterror("cpass", "*password and confirm password should match!!");
       var returnval = false;
     }
+    if(returnval== true){
+      alert("your validations are correct")
+    }
   
     return returnval;
   }
