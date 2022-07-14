@@ -1,13 +1,17 @@
+// function to clear all the errors
 function clearformerros() {
     errors = document.getElementsByClassName("error");
     for (let item of errors) {
       item.innerHTML = "";
     }
   }
+  // Function to throw an error when Validation fails
   function geterror(id, error) {
     element = document.getElementById(id);
     element.getElementsByClassName("error")[0].innerHTML = error;
   }
+
+// Function to check all the Validations in the form.
   function validateform() {
     var returnval = true;
     clearformerros();

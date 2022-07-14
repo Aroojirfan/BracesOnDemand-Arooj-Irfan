@@ -21,11 +21,14 @@
     text-align: center;
     border-radius: 16px;
     width:200px;
-    margin-left: 250px;
+    margin-left: 400px;
 }
 .container1{
     margin-top: 230px;
 }
 .error {
     color: red;
+}
+#hello{
+    margin-left:1px;
 }
