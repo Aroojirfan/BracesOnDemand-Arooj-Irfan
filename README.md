@@ -30,5 +30,5 @@ Documentation is available at:
 
 ## Screenshots
 
-<img width="1440" alt="Screenshot 2022-07-15 at 5 45 46 PM" src="https://user-images.githubusercontent.com/108729483/179227257-16f39221-187c-4d34-84ad-eb1e2b6f947d.png">
+<img width="1440" alt="Screenshot 2022-07-15 at 5 45 46 PM" src="![image](https://user-images.githubusercontent.com/108729483/179228269-3a0bfd6b-5887-4105-b5ca-39976d0de59e.png)">
 
