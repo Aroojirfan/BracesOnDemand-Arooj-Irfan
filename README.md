@@ -1,1 +1,34 @@
 # BracesOnDemand-Aroojirfan
+
+
+
+# Random Color Generator
+
+Colors are a crucial part of design, both online and offline. Almost all elements on a webpage have some color applied to them. There are entire websites built around creating gradients and color palettes either randomly or from a source color.
+JavaScript does have a Math.random() function that we can use to generate those random numbers. It will give a random floating-point.
+## Deployment
+
+To deploy this project run
+
+```bash
+index.html
+```
+Place index2.html, style.css and random_color.js in the same folder.
+
+
+
+## Documentation
+Documentation is available at:
+
+[Random Color Generator](https://code.tutsplus.com/tutorials/how-to-code-a-random-color-generator-in-javascript--cms-39861)
+
+
+
+
+
+
+
+## Screenshots
+
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
