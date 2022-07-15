@@ -30,5 +30,4 @@ Documentation is available at:
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-
+![Uploading Screenshot 2022-07-15 at 5.45.46 PM.png…]()
