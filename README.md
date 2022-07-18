@@ -30,5 +30,5 @@ Documentation is available at:
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+<img width="1440" alt="Screenshot 2022-07-15 at 5 45 46 PM" src="https://user-images.githubusercontent.com/108729483/179229523-f180f8c5-e48a-472a-b261-588a3bf3b9e0.png">
 
