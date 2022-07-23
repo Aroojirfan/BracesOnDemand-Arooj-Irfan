@@ -1,2 +1,4 @@
-.env
+env.js
 apikeys.js
+package.json
+.DS_Store
