@@ -27,7 +27,6 @@ showWeather = (data) => {
   document.body.style.backgroundImage =
    `url('https://source.unsplash.com/1600x900/? + ${name} + )`;
 }
-
-function search() {
-  weather(searchitem.value);
+search = () =>{
+  weather(searchItem.value);
 }
