@@ -1,23 +1,33 @@
-let weather = {
-  apiKey: "fab8f5d460762f2aefd85455b9b0ff2b",
-  fetchWeather: function (city) {
-    fetch(
-      "https://api.openweathermap.org/data/2.5/weather?q=" +
-        city +
-        "&units=metric&appid=" +
-        this.apiKey
-    )
-      .then((response) => response.json())
-      .then((data) => this.showWeather(data));
-  },
-    showWeather: function (data) {
-    const { name } = data;
-    const { icon, description } = data.weather[0];
-    const { temp, humidity } = data.main;
-    const { speed } = data.wind;
 
-    document.querySelector(".city").innerHTML = "Weather in" + " " + name;
-    document.querySelector(".icon").src =
+
+
+
+const weather = async  (city) => {
+    
+    const response = await fetch("https://api.openweathermap.org/data/2.5/weather?q="+city+"&units=metric&appid=fab8f5d460762f2aefd85455b9b0ff2b")
+   
+    await response.json()
+    .then((data) => showWeather(data));
+    
+    if (!response.ok){
+      alert("incorrect city response");
+    }
+    
+} 
+ 
+
+
+
+function  showWeather (data) {
+  
+
+  const { name } = data;
+  const { icon, description } = data.weather[0];
+  const { temp, humidity } = data.main;
+  const { speed } = data.wind;
+  var.cityName.innerHTML= `${name}`
+  console.log(cityName)
+  document.querySelector(".icon").src =
       "https://openweathermap.org/img/wn/" + icon + ".png";
     document.querySelector(".description").innerText = description;
     document.querySelector(".humidity").innerText =
@@ -28,14 +38,22 @@ let weather = {
     document.querySelector(".items").classList.remove("loading");
     document.body.style.backgroundImage =
       "url('https://source.unsplash.com/1600x900/?" + name + "')";
-  },
-  search: function () {
-    this.fetchWeather(document.querySelector("#search").value);
-  },
-  enter: function (event) {
-    if (event.key == "enter") {
-      weather.search();
-    }
-  },
-};
-weather.fetchWeather("Lahore");
+     
+   
+     
+}
+
+
+  
+    
+  // if(document.querySelector("#search").value=" "){
+  //   alert(" Invalid City ")
+  // }else{
+  //   weather(document.querySelector("#search").value);
+  // }
+  
+   
+
+function search () {
+  weather(document.querySelector("#search").value);
+}
