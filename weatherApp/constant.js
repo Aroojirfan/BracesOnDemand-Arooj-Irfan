@@ -1,0 +1,8 @@
+const cityName = document.querySelector(".city")
+const icon = document.querySelector(".icon")
+const desc = document.querySelector(".description")
+const humidity = document.querySelector(".humidity")
+const temperature = document.querySelector(".temp")
+const windWeather = document.querySelector(".wind")
+const loading = document.querySelector(".items")
+const searchItem= document.querySelector("#search")
