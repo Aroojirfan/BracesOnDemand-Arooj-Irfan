@@ -9,7 +9,7 @@ const weather = async (city) => {
   }
   
 }
-showWeather = (data) => {
+const showWeather = (data) => {
   const { name } = data;
   const { icon, description } = data.weather[0];
   const { temp, humidity } = data.main;
@@ -27,6 +27,6 @@ showWeather = (data) => {
   document.body.style.backgroundImage =
    `url('https://source.unsplash.com/1600x900/? + ${name} + )`;
 }
-search = () =>{
+const search = () =>{
   weather(searchItem.value);
 }
